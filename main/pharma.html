@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>MEDISHIELD</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <!-- <link rel="shortcut icon" href="favicon.png" /> -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800,900%7CPoppins:300,400,500,600,700,800,900&amp;display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="assets/plugins/magnific-popup/magnific-popup.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/plugins/data-tables/datatables.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+</head>
+
+<body>
+    <main class="wrapper" id="home">
+        <!-- <div class="preloader w-100 h-100 position-fixed bg-white"> <img src="assets/img/preloader.png" alt=""> </div> -->
+        <header class="header">
+            <div class="header-fixed">
+                <div class="container">
+                    <div class="row no-gutters align-items-center position-relative">
+                        <div class="col-lg-2 col-sm-4 col-5">
+                            <div class="logo text-light" style="color: aliceblue;"> <a href="index.html" class="text-light" style="font-weight: 800; font-size: 30px; color: aliceblue;"> MEDISHIELD </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-sm-4 col-4 position-static">
+                            <div
+                                class="main-menu d-flex align-items-center justify-content-lg-center justify-content-end">
+                                <ul class="nav align-items-center onPageNav">
+                                    <li> <a href="#home">Doctor</a> </li>
+                                    <li> <a href="#countries">Manufacture</a> </li>
+                                    <li> <a href="#dataTable">Pharma</a> </li>
+                                    <li> <a href="#dataTable">Retailer</a> </li>
+                                    <li> <a href="#dataTable">Patient</a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-sm-4 col-3 text-right"> <a href="#" class="btn header-btn"> <span
+                                    class="icon d-sm-none"> <img src="assets/img/icon/sick.svg" class="svg" alt="">
+                                </span> <span class="d-none d-sm-block">Login/signup</span> </a> </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="banner d-flex align-items-center justify-content-center" style="height: 100px;" data-bg-img="assets/img/banner.png">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="countries" class="pt-120 pb-120 pattern-bg-wrapper"> <img src="assets/img/bg-pattren.png"
+            class="pattern-bg" alt="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <figure class="mb-50 mb-lg-0 text-center"> <img class="radius-10"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5-HARWPzphgM9YjOix7l2_S5iPBTIO8lpXA&usqp=CAU" alt=""> </figure>
+                </div>
+                <div class="col-lg-6">
+                    <div class="section-title mb-30 mt-lg-40"> <span>PHARMA</span>
+                        <!-- <h2>Bangladesh corona live update</h2> -->
+                    </div>
+                    <div class="info-text">
+                        <p>Manufacturing is the process of turning raw materials or parts into finished goods through the use of tools, human labor, machinery, and chemical processing. Manufacturing is integral to the economy. </p>
+                        
+                    </div><button onclick="window.location='../main/pages/pharma/receive.html';" type="submit"
+                    class="btn mb-20 mb-sm-0">ReceiveMedicine</button>
+                    <button onclick="window.location='../main/pages/pharma/sellmed.html';" type="submit"
+                    class="btn mb-20 mb-sm-0">Sell medicine</button>
+                    <button onclick="window.location='../main/pages/pharma/verifypres.html';" type="submit"
+                    class="btn mb-20 mb-sm-0">VerifyMedicine</button>
+                </div>
+                
+            </div>
+            <div class="row justify-content-end">
+                <div class="col-lg-9">
+                    <div id="coronaCountryUpdate" data-country="bangladesh" class="corona-update-group radius-10">
+                        <div class="row no-gutters">
+                            <!-- <div
+                                class="col-lg-4 bg-warning col-sm-6 cu_info cu_confirmed d-flex flex-column align-items-center justify-content-center p-30">
+                                <span class="text-white">Create Prescription</span>
+                                <h2 class="text-white cuCountryTotal"> <button onclick="window.location='../main/pages/doctor/createprescription.html';" type="submit"
+                                    class="btn mb-20 mb-sm-0">Click Here</button></h2>
+                                
+                            </div> -->
+                            <!-- <div
+                                class="col-lg-4 bg-denger col-sm-6 cu_info cu_deaths d-flex flex-column align-items-center justify-content-center p-30">
+                                <span class="text-white">Total Deaths:</span>
+                                <h2 class="text-white cuCountryDeaths">&nbsp;</h2>
+                            </div> -->
+                            <!-- <div
+                                class="col-lg-4 col-sm-6 bg-info cu_info cu_critical d-flex flex-column align-items-center justify-content-center p-30">
+                                <span>Critical:</span>
+                                <h2 class="cuCountryCritical">&nbsp;</h2>
+                            </div>
+                            <div
+                                class="col-lg-4 bg-warning col-sm-6 cu_info cu_today_cases d-flex flex-column align-items-center justify-content-center p-30">
+                                <span class="text-white">Today Cases:</span>
+                                <h2 class="text-white cuCountryTodayCases">&nbsp;</h2>
+                            </div>
+                            <div
+                                class="col-lg-4 col-sm-6 bg-denger cu_info cu_today_deaths d-flex flex-column align-items-center justify-content-center p-30">
+                                <span class="text-white">Today Deaths:</span>
+                                <h2 class="text-white cuCountryTodayDeaths">&nbsp;</h2>
+                            </div>
+                            <div
+                                class="col-lg-4 col-sm-6 bg-success cu_info cu_recovered d-flex flex-column align-items-center justify-content-center p-30">
+                                <span class="text-white">Recovered:</span>
+                                <h2 class="text-white cuCountryRecovered">&nbsp;</h2>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+       
+       
+        
+        <footer class="footer bg-cover" data-bg-img="assets/img/footer-bg.jpg">
+            <div class="container">
+                <!-- <div class="footer-top">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <h3 class="newsletter-title text-white mb-30 mb-lg-0">Subscribe To Our Newsletter</h3>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="newsletter-form">
+                                <form
+                                    action="https://themelooks.us13.list-manage.com/subscribe/post?u=79f0b132ec25ee223bb41835f&amp;id=f4e0e93d1d">
+                                    <div class="theme-input-wrapper"> <input type="text" class="theme-input-style"
+                                            placeholder="Enter your email address"> <button type="submit"
+                                            class="btn">Subscribe</button> </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-main">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="widget widget-about text-white">
+                                <div class="logo mb-30"> <a href="index.html"><img src="assets/img/footer-logo.png"
+                                            alt="" /></a> </div>
+                                <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan.</p>
+                            </div>
+                            <div class="widget widget-social-icon">
+                                <ul class="list-unstyled d-flex">
+                                    <li> <a href="#"> <img src="assets/img/icon/twitter.svg" class="svg" alt=""> </a>
+                                    </li>
+                                    <li> <a href="#"> <img src="assets/img/icon/facebook.svg" class="svg" alt=""> </a>
+                                    </li>
+                                    <li> <a href="#"> <img src="assets/img/icon/linkedin.svg" class="svg" alt=""> </a>
+                                    </li>
+                                    <li> <a href="#"> <img src="assets/img/icon/instagram.svg" class="svg" alt=""> </a>
+                                    </li>
+                                    <li> <a href="#"> <img src="assets/img/icon/youtube.svg" class="svg" alt=""> </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-sm-6">
+                            <div class="widget widget_nav_menu">
+                                <h3 class="widget-title text-white">Quick Links</h3>
+                                <ul class="list-unstyled text-white">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Doctors</a></li>
+                                    <li><a href="#">FAQ's</a></li>
+                                    <li><a href="#">Prevention</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="widget widget_contacts">
+                                <h3 class="widget-title text-white">Contacts</h3>
+                                <ul class="list-unstyled text-white">
+                                    <li>Address: 2750 Strump Street</li>
+                                    <li>Victoria, United State.</li>
+                                    <li>Email:info@covidland.com</li>
+                                    <li>Phone:+44 587 154756</li>
+                                    <li>Fax:+55 785 4578964</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="widget widget_contacts">
+                                <h3 class="widget-title text-white">Working Days</h3>
+                                <ul class="list-unstyled text-white">
+                                    <li>Monday: 8AM - 6PM</li>
+                                    <li>Tuesday: 8AM - 6PM</li>
+                                    <li>Wednesday: 8AM - 6PM</li>
+                                    <li>Thur - Fri: 8AM - 6PM</li>
+                                    <li>Sunday: 8AM - 6PM</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 text-center text-lg-left"> <span
+                                class="copyright-text text-white">Copyright © 2022 JCODERS</span>
+                        </div>
+                        <div class="col-lg-6 order-first order-lg-last">
+                            <ul
+                                class="list-unstyled footer-menu d-flex align-items-center justify-content-center justify-content-lg-end mb-15 mb-lg-0">
+                                <li><a href="#">Terms & Conditions</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/plugins/data-tables/datatables.min.js"></script>
+    <script src="assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/plugins/nav/nav.min.js"></script>
+    <script src="assets/js/menu.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>

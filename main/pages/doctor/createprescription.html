@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>covidland</title>
+    <title>MEDISHIELD</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -20,45 +20,46 @@
 
 <body>
     <main class="wrapper">
-        <div class="preloader w-100 h-100 position-fixed bg-white"> <img src="../../assets/img/preloader.png" alt="">
+        <!-- <div class="preloader w-100 h-100 position-fixed bg-white"> <img src="../../assets/img/preloader.png" alt=""> -->
         </div>
         <header class="header">
             <div class="header-fixed">
                 <div class="container">
                     <div class="row align-items-center position-relative">
                         <div class="col-lg-2 col-sm-4 col-5">
-                            <div class="logo"> <a href="index.html"> <img src="../../assets/img/logo.png" alt="" /> </a>
+                            <div class="logo text-light" style="color: aliceblue;"> <a href="index.html" class="text-light" style="font-weight: 800; font-size: 30px; color: aliceblue;"> MEDISHIELD </a>
                             </div>
                         </div>
                         <div class="col-lg-8 col-sm-4 col-4 position-static">
                             <div
                                 class="main-menu d-flex align-items-center justify-content-lg-center justify-content-end">
                                 <ul class="nav align-items-center onPageNav">
-                                    <li> <a href="#home">Health Topics</a> </li>
-                                    <li> <a href="#countries">Countries</a> </li>
-                                    <li> <a href="#dataTable">Data Table</a> </li>
-                                    <li><a href="#coronaTest">Online Test</a></li>
-                                    <li class="current-menu-parent"> <a href="#">Pages</a>
+                                    <li> <a href="#home">Doctor</a> </li>
+                                    <li> <a href="#countries">Manufacture</a> </li>
+                                    <li> <a href="#dataTable">Pharma</a> </li>
+                                    <li> <a href="#dataTable">Retailer</a> </li>
+                                    <!-- <li><a href="#coronaTest">Online Test</a></li> -->
+                                    <!-- <li class="current-menu-parent"> <a href="#">Pages</a>
                                         <ul class="sub-menu">
                                             <li class="current-menu-item"><a href="blog.html">Blog</a></li>
                                             <li><a href="blog-details.html">Blog Details</a></li>
                                             <li><a href="404.html">404</a></li>
                                         </ul>
-                                    </li>
+                                    </li> -->
                                 </ul>
                             </div>
                         </div>
                         <div class="col-lg-2 col-sm-4 col-3 text-right"> <a href="#" class="btn header-btn"> <span
                                     class="icon d-sm-none"> <img src="../../assets/img/icon/sick.svg" class="svg"
                                         alt="">
-                                </span> <span class="d-none d-sm-block">are you sick?</span> </a> </div>
+                                </span> <span class="d-none d-sm-block">Login/Signup</span> </a> </div>
                     </div>
                 </div>
             </div>
         </header>
         <div class="page-title-wrap" data-bg-img="../../assets/img/prevention-bg.jpg">
             <div class="container">
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-12">
                         <div class="page-title">
                             <h2 class="text-white mb-20">Blog</h2>
@@ -68,14 +69,14 @@
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
         <section class="pt-120 pb-120 bg-light">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="section-title text-center mb-75"> <span>24/7 Support</span>
+                        <div class="section-title text-center mb-75">
                             <h2>Create Your Prescription</h2>
                         </div>
                     </div>
@@ -86,14 +87,14 @@
                         <div class="contact-form-wrapper bg-white radius-10">
                             <form method="POST" action="#" class="contact-form">
 
-                                <div class="theme-input-group mb-20">
+                                <!-- <div class="theme-input-group mb-20">
 
                                     <label for="name" class="theme-input-lable">Doctor ID/Registered ID</label>
                                     <input id="name" name="name" class="theme-input-style" type="text"
                                         placeholder="12345" disabled>
 
 
-                                </div>
+                                </div> -->
 
                                 <div class="theme-input-group mb-20">
                                     <label for="name" class="theme-input-lable">Enter
@@ -106,17 +107,92 @@
                                         your age</label>
                                     <input id="text" name="email" class="theme-input-style" type="email"
                                         placeholder="Type your age">
-                                </div>
-                                <div class="theme-input-group mb-20">
+                                </div> 
+                                <!-- <div class="theme-input-group mb-20">
                                     <label for="email" class="theme-input-lable">Enter
                                         your address</label>
                                     <textarea name="address" placeholder="Type your address"
                                         class="form-control theme-input-style" id="address" cols="30"
                                         rows="1"></textarea>
 
-                                </div>
+                                </div> -->
                                 <div class="theme-input-group mb-20"> <label for="phone" class="theme-input-lable">Enter
                                         your drug prescribed:</label>
+
+                                </div>
+                                <div class="theme-input-group mb-20">
+                                    <div class="row">
+                                        <div class="col-md-3 col-12">
+                                            <label for="name" class="theme-input-lable">Medicine name</label>
+                                            <input id="name" name="name" class="theme-input-style" type="text"
+                                                placeholder="Medicine name">
+                                        </div>
+                                        <div class="col-md-3 col-12">
+                                            <label for="name" class="theme-input-lable">Potency</label>
+                                            <input id="name" name="name" class="theme-input-style" type="text"
+                                                placeholder="Potency">
+                                        </div>
+                                        <div class="col-md-3 col-12">
+                                            <label for="name" class="theme-input-lable">Dosage</label>
+                                            <input id="name" name="name" class="theme-input-style" type="text"
+                                                placeholder="Dosage">
+                                        </div>
+                                        <div class="col-md-3 col-12">
+                                            <label for="name" class="theme-input-lable">Duration</label>
+                                            <input id="name" name="name" class="theme-input-style" type="text"
+                                                placeholder="Duration">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="theme-input-group mb-20">
+                                    <div class="row">
+                                        <div class="col-md-3 col-12">
+                                            <label for="name" class="theme-input-lable">Medicine name</label>
+                                            <input id="name" name="name" class="theme-input-style" type="text"
+                                                placeholder="Medicine name">
+                                        </div>
+                                        <div class="col-md-3 col-12">
+                                            <label for="name" class="theme-input-lable">Potency</label>
+                                            <input id="name" name="name" class="theme-input-style" type="text"
+                                                placeholder="Potency">
+                                        </div>
+                                        <div class="col-md-3 col-12">
+                                            <label for="name" class="theme-input-lable">Dosage</label>
+                                            <input id="name" name="name" class="theme-input-style" type="text"
+                                                placeholder="Dosage">
+                                        </div>
+                                        <div class="col-md-3 col-12">
+                                            <label for="name" class="theme-input-lable">Duration</label>
+                                            <input id="name" name="name" class="theme-input-style" type="text"
+                                                placeholder="Duration">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="theme-input-group mb-20">
+                                    <div class="row">
+                                        <div class="col-md-3 col-12">
+                                            <label for="name" class="theme-input-lable">Medicine name</label>
+                                            <input id="name" name="name" class="theme-input-style" type="text"
+                                                placeholder="Medicine name">
+                                        </div>
+                                        <div class="col-md-3 col-12">
+                                            <label for="name" class="theme-input-lable">Potency</label>
+                                            <input id="name" name="name" class="theme-input-style" type="text"
+                                                placeholder="Potency">
+                                        </div>
+                                        <div class="col-md-3 col-12">
+                                            <label for="name" class="theme-input-lable">Dosage</label>
+                                            <input id="name" name="name" class="theme-input-style" type="text"
+                                                placeholder="Dosage">
+                                        </div>
+                                        <div class="col-md-3 col-12">
+                                            <label for="name" class="theme-input-lable">Duration</label>
+                                            <input id="name" name="name" class="theme-input-style" type="text"
+                                                placeholder="Duration">
+                                        </div>
+                                    </div>
 
                                 </div>
                                 <div class="theme-input-group mb-20">
@@ -158,7 +234,7 @@
 
 
         <footer class="footer bg-cover" data-bg-img="assets/img/footer-bg.jpg">
-            <div class="container">
+            <!-- <div class="container">
                 <div class="footer-top">
                     <div class="row align-items-center">
                         <div class="col-lg-6">
@@ -237,12 +313,12 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="footer-bottom">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6 text-center text-lg-left"> <span
-                                class="copyright-text text-white">Copyright © 2020 CovidLand Design By Themelooks</span>
+                                class="copyright-text text-white">Copyright © 2022 JCODERS</span>
                         </div>
                         <div class="col-lg-6 order-first order-lg-last">
                             <ul
